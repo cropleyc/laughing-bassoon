@@ -1,4 +1,4 @@
-#Cayuse HR Connect is an API that allows you to sync the following common admin data:
+# Cayuse HR Connect is an API that allows you to sync the following common admin data:
 
 # People and Users
 # Org Units
