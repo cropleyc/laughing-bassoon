@@ -6,6 +6,10 @@
 # External organizations (sponsors)
 # Role Assignments
 
+
+require "uri"
+require "net/http"
+
 # Authentication request
 auth_url = URI("https://signin.<environment>.cayuse.com/api/v2/authenticate")
 auth_https = Net::HTTP.new(auth_url.host, auth_url.port)
